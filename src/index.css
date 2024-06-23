@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Disable scrollbar in IE */
+* {
+  -ms-overflow-style: none;
+}
+
+/* Hide scrollbar in WebKit browsers */
+::-webkit-scrollbar {
+  display: none;
+}

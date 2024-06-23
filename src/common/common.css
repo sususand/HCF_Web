@@ -1,0 +1,41 @@
+.ant-layout-content{
+    margin: 0px 16px;
+}
+
+/* Disable scrollbar in IE */
+* {
+    -ms-overflow-style: none;
+  }
+  
+  /* Hide scrollbar in WebKit browsers */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+ .ant-menu-light.ant-menu-horizontal >.ant-menu-item-selected {
+  color: #E13B0A;
+  }
+.ant-menu-light.ant-menu-horizontal >.ant-menu-item:hover::after{
+  border-bottom-color:#E13B0A ;
+ } 
+ .ant-menu-light.ant-menu-horizontal >.ant-menu-item-selected::after,
+ .ant-menu-light.ant-menu-horizontal >.ant-menu-item-selected:hover
+ {
+  border-bottom-color: #E13B0A;
+  color: black;
+
+ } 
+ .ant-btn-primary{
+  background-color: #E13B0A;
+  color: white;
+ }
+ .ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover{
+  background-color: #E13B0A;
+  color: white;
+ }
+ 
+ .ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover{
+  color: #E13B0A;
+  border-color: #E13B0A;
+ }
+
