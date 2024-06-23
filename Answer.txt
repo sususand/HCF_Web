@@ -1,0 +1,20 @@
+1. If you got assigned task in a language that you haven’t learnt, what will
+you do?
+Firstly I will do research and learning fot its syntax, paradigms, and key features.Utilize online resources like official documentation, tutorials, and courses (e.g., Coursera, Udemy, freeCodeCamp).Then apply to task Apply the learned concepts to each part, seeking help from documentation and communities as needed.
+by using integrated development environments (IDEs) and tools that provide syntax highlighting, debugging, and code completion to aid development.
+
+2. Have you ever faced debugging of messy codes? If so describe me how
+you make sure your codes have perfect readability.
+Yes I have faced messsy code debugging.In that case, I try running the code to see what it does and where it fails and read through the code to get a general idea of its structure and functionality.
+Then , identify Key Areas of the code that are causing issues.
+Add comments to sections of code to clarify their purpose and logic and logging to track the flow of execution and values of variables at different points.
+Use meaningful and descriptive names for variables, functions, and classes.
+Avoid Abbreviations or single-letter variable names.
+Organize code into functions and modules that each handle a specific task.
+  
+3. How do you understand “100 lines of codes with no owner in 5 members
+of teams, company dead”?
+The statement "100 lines of codes with no owner in 5 members of teams, company dead"  as a warning about the importance of code ownership and responsibility within a team.
+"100 lines of code with no owner": This implies that there are pieces of code in the project that no specific team member is responsible for. Without clear ownership, it's difficult to ensure that the code is well-maintained, understood, and updated as needed.
+In my opinion we need to make regular code reviews,use version control system like Git to ensure that the code is understandable and maintainable by multiple team members. 
+
