@@ -65,7 +65,10 @@ const HomePage = ({ uploadOrders, planNonHala, planHala }) => {
                 }
                 setMessage(res.msg);
                 openWarningModal(true);
-              } else console.log("internal server error .");
+              } else {
+                setMessage("Internal server error .");
+                openWarningModal(true);
+              }
             });
           } else {
             setMessage("There is no order to import!");
@@ -128,7 +131,7 @@ const HomePage = ({ uploadOrders, planNonHala, planHala }) => {
       dataIndex: "order_type",
       key: "order_type",
       width: 100,
-      render: (text) => <span>{text == "1" ? "Hala" : "Non-Hala"}</span>,
+      render: (text) => <span>{text === "1" ? "Hala" : "Non-Hala"}</span>,
     },
     {
       title: "Order Priority",
@@ -136,7 +139,7 @@ const HomePage = ({ uploadOrders, planNonHala, planHala }) => {
       key: "order_priority",
       width: 100,
       render: (text) => (
-        <>{text == "1" ? <Tag color="green">Hight</Tag> : <Tag>Normal</Tag>}</>
+        <>{text === "1" ? <Tag color="green">Hight</Tag> : <Tag>Normal</Tag>}</>
       ),
     },
     {

@@ -2,7 +2,7 @@
 
 # Variables
 IMAGE_NAME := hcf_delivery_frontend
-CONTAINER_NAME := hcf-delivery-container
+CONTAINER_NAME := frontend-container
 
 .PHONY: build run stop clean
 

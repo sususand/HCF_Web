@@ -3,12 +3,7 @@ import { Form, Input, Button, Select, Modal, Row } from "antd";
 import AlertSuccessModal from "./alert/AlertSuccessModal";
 import AlertWarningModal from "./alert/AlertWarningModal";
 import { useDispatch } from "react-redux";
-import {
-  addTrucks,
-  registerTrucks,
-  updateTruck,
-  updateTrucks,
-} from "../store/action/OrderAction";
+import { registerTrucks, updateTruck } from "../store/action/OrderAction";
 
 const { Option } = Select;
 const TruckModal = ({ title, data, open, onClose }) => {

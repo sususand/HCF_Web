@@ -16,7 +16,9 @@ const AlertWarningModal = ({ message, open, onClose }) => {
             backgroundColor: "#E13B0A",
             color: "white",
             width: "80px",
+            padding: "5px 0px",
             borderRadius: "6px",
+            border: "none",
           }}
           onClick={() => {
             onClose();
