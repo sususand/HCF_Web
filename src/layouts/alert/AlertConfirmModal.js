@@ -16,6 +16,8 @@ const AlertConfirmModal = ({ message, open, onClose, confirmFunc }) => {
             backgroundColor: "#E13B0A",
             color: "white",
             width: "80px",
+            border: "none",
+            padding: "5px 0px",
             borderRadius: "6px",
           }}
           onClick={() => {
